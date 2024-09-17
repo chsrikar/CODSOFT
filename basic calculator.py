@@ -7,6 +7,7 @@ print("This is basic calculator")
 bb = '''This can do both normal and decimal type
 1. normal
 2. decimal'''
+print(bb)
 cal = input("Enter your choice :")
 cal = cal.lower()
 if cal == "normal":
